@@ -13,7 +13,7 @@ mint_fist.pop(0)
 mint_fist.pop(4999)
 def getdata():
     global mint_fist
-    for i in range(1,5000):
+    for i in range(1,5):
         mint_address = mint_fist[i]
         filename = mint_address + ".json"
 

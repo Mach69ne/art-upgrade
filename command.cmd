@@ -1,1 +1,1 @@
-metaboss decode mint --account ]
+metaboss decode mint --account Ebr5ZQ55HKGTYZxdrqwiXWQHGFsZUfezXHQ88zXNKEz3
