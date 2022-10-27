@@ -1,0 +1,1 @@
+metaboss decode mint --account ]
