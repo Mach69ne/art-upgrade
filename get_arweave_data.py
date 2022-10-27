@@ -7,7 +7,7 @@ def scraper(url):
     url.headers
     e = url.content
     soup = BeautifulSoup(e, "html.parser")
-    soup = dict(soup)
-    print(soup)
+    soup = str(soup)
+    soup = json.loads(soup)
 url = "https://arweave.net/-fMZVF026AUBuDilzc7pNt5kBq7-qN5eYdw5hY3ms20"
 scraper(url)
