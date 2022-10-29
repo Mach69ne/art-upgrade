@@ -23,7 +23,10 @@ def getdata():
             for k in range(0,4):
                 current_att = attributes[k]
                 value = current_att['value']
-                #current_att['value'] = value.title()
+                if value=="Standard Grey":
+                    current_att['value'] = "Grey"
+
+
                 print(value)
             json.dump(data,f)
             f.close()
