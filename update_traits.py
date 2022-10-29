@@ -12,7 +12,7 @@ for a in hashlist:
 mint_fist.pop(0)
 mint_fist.pop(4999)
 def getdata():
-    for i in range(1,4999):
+    for i in range(0,4999):
         mint_address = mint_fist[i]
         filename = mint_address + ".json"
         with open(filename, 'r') as d:
@@ -20,12 +20,16 @@ def getdata():
             d.close()
         with open(filename, 'w') as f:
             attributes = data['attributes']
-            for k in range(0,4):
+            for k in range(0,5):
                 current_att = attributes[k]
                 value = current_att['value']
+                #print(current_att['value'])
                 current_att['value'] = value.title()
+                #print(current_att['value'])
                 attributes[k] = current_att
+            print(attributes)
             data['attributes'] = attributes
+            #print(data['attributes'])
             json.dump(data,f)
             f.close()
 
