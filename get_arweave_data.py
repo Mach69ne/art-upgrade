@@ -28,10 +28,7 @@ mycursor.execute("SELECT * FROM old_apes")
 
 myresult = mycursor.fetchall()
 for item in myresult:
-    number = item[0]
-    number = int(number)
-    if number>950:
         mint = item[1]
         url = item[2]
-        print(number)
-        scraper(url,mint)
+        if mint=="48jVV5C6i9gRTfyUA63CP7s7NF7a12BMA7ghzUiTFgyv" or mint=="BQov1vpPkuR7Ep4TY6syrnFB5n3B8nDuAU9UZo9J5zBX":
+            scraper(url,mint)
