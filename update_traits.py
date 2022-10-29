@@ -29,7 +29,8 @@ def getdata():
                         if current_att['value']:
                             value = current_att['value']
                             #print(current_att['value'])
-                            current_att['value'] = value.title()
+                            if value=="Standard Grey":
+                                current_att['value']="Grey"
                             #print(current_att['value'])
                             attributes[k] = current_att
                     data['attributes'] = attributes
