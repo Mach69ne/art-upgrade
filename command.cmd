@@ -1,1 +1,1 @@
-metaboss update uri -a BDvgGDVVj5g1DCTKwBMNoTp84qbahfoRey4EhcYncjQc -u https://raw.githubusercontent.com/Mach69ne/art-upgrade/main/BDvgGDVVj5g1DCTKwBMNoTp84qbahfoRey4EhcYncjQc.json
+metaboss update uri -a ] -u https://raw.githubusercontent.com/Mach69ne/art-upgrade/main/].json
