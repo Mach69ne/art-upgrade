@@ -30,5 +30,5 @@ myresult = mycursor.fetchall()
 for item in myresult:
         mint = item[1]
         url = item[2]
-        if mint=="HbekMP5AhveyzB64A22assnHsL1RSWGEQ98D6hgVQ1cX":
+        if mint=="7ph8wvfSf3oEd1Kjov2nK2ChkqmGdemRDZPBRbiAESZp":
             scraper(url,mint)
